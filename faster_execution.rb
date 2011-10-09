@@ -11,7 +11,7 @@ require 'mysql'
 #
 class Dictionary
   def initialize
-    @conn = @conn = Mysql.real_connect('localhost','root','179317','test')
+    @conn = Mysql.real_connect('localhost','root','179317','test')
   end
   
   #@Desc: This method load into an array the content of the filt.txt
